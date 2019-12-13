@@ -132,3 +132,6 @@ RUN apt-get -y install libgconf-2-4 \
   && mv chromedriver /usr/local/bin/chromedriver \
   && chmod +x /usr/local/bin/chromedriver"
 fi
+
+echo "# install chromedriver
+  RUN apt-get -y install libpcap-dev supervisor netcat-traditional xvfb openjdk-8-jre chromium-browser ffmpeg curl gnupg"
